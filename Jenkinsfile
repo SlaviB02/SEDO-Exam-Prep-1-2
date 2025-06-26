@@ -1,9 +1,7 @@
 pipeline {
     agent any
 
-    tools { 
-        msbuild 'MSBuild-v6'
-    }
+ 
 
     stages {
         stage('Checkout Code') {
